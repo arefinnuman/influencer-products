@@ -8,6 +8,9 @@
 body {
     color: #3A3A3A;
     font-family: 'Poppins', sans-serif;
+}
+
+.container {
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -168,4 +171,50 @@ nav a {
     text-decoration: none;
     color: #E02C6D;
     font-size: large;
+}
+
+/* --------------------------------------------
+               Collection Part
+--------------------------------------------- */
+
+.featured-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.featured-image {
+    width: 404px;
+    height: 270px;
+}
+
+.featured-info h1 {
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.featured-info p {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.featured-info a {
+    text-decoration: none;
+    color: white;
+    width: 196px;
+    height: 44px;
+    gap: 8px;
+    padding: 10px 24px;
+    background: #E02C6D;
+
+}
+
+/* --------------------------------------------
+               Footer Part
+--------------------------------------------- */
+footer {
+    margin: 0%;
+    color: white;
+    background: #0A0826;
+    text-align: center;
 }
